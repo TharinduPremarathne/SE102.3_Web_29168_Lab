@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>FIST TUTORIAL</title>
+    </head>
+    <body>
+        <h1><center>Registration Form</center></h1>
+        <form>
+            <center>
+                <table>
+                    <tr>
+                        <td>Fist Name</td>
+                        <td><input type="text" name="fn"></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="ln"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Number</td>
+                        <td><input type="text" name="mn"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td><input type="radio" name="gen" value="m">Male
+                            <input type="radio" name="gen" value="f">Female</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" name="em"></td>
+                    </tr>
+                    <tr>
+                        <td>Favourite Music</td>
+                        <td><input type="checkbox" name="p" value="1">POP
+                            <input type="checkbox" name="r" value="2">Rock
+                            <input type="checkbox" name="o" value="3">Other</td>
+                    </tr>
+                    <tr>
+                        <td>Additional Details</td>
+                        <td><input type="text" name="ad"</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="checkbox" name="ag" value="4" > I agree to the terms and conditions.</td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="log" value="Submit"></td>
+                        <th><input type="reset" name="rs" value="Reset"></th>
+                    </tr>
+                </table>
+            </center>
+        </form>
+    </body>
+</html>

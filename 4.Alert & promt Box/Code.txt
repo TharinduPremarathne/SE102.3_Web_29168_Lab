@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+
+        window.onload=function(){
+            getMarks();
+        }
+
+        function getMarks(){
+                var total =0;
+            for(var i=1;i<=5;i++)
+            {
+                var mark = parseInt(window.prompt(`Enter Marks ${i}:- `))
+
+                total=total+mark;
+            }
+            var ave = total/5;
+            document.write("<h3>Sum is:- "+total);
+            document.write("<br>");
+            document.write("Average is:- "+ave);
+            document.write("</h3>");
+
+            var button=document.createElement("button");
+            button.innerHTML="Grade";
+            button.onclick=function(){
+                if (ave> 30 ){
+                    window.alert("Congratulations..!")
+                } else {
+                    window.alert("Better luck, next time")
+                }
+            }
+            document.body.appendChild(button)
+            
+        }
+    </script>
+</body>
+</html>
